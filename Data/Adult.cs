@@ -1,7 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace FamilyData.Data
 {
     public class Adult : Person
     {
-        public Job JobTitle { get; set; }
+
+        public Job Job { get; set; }
     }
 }
